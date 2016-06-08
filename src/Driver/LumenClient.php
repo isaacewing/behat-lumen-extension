@@ -3,6 +3,7 @@
 namespace Arisro\Behat\Driver;
 
 use Illuminate\Container\Container;
+use Illuminate\Http\Request;
 use Laravel\Lumen\Concerns\RoutesRequests;
 use Laravel\Lumen\Testing\Concerns\MakesHttpRequests;
 use Symfony\Component\BrowserKit\Client as BaseClient;
@@ -12,7 +13,6 @@ use Symfony\Component\BrowserKit\Cookie as DomCookie;
 use Symfony\Component\BrowserKit\CookieJar;
 use Symfony\Component\BrowserKit\History;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
-use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\Cookie;
 
