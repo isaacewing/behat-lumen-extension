@@ -1,5 +1,5 @@
 {
-    "name": "isaacewing/behat-lumen-extension",
+    "name": "pixelfusion/behat-lumen-extension",
     "type": "behat-extension",
     "description": "Lumen extension for Behat",
     "keywords": ["lumen", "behat", "extension", "bdd"],
