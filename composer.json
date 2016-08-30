@@ -1,5 +1,5 @@
 {
-    "name": "pixelfusion/behat-lumen-extension",
+    "name": "isaacewing/behat-lumen-extension",
     "type": "behat-extension",
     "description": "Lumen extension for Behat",
     "keywords": ["lumen", "behat", "extension", "bdd"],
@@ -16,7 +16,7 @@
         }
     },
     "require": {
-        "php": ">=5.4",
+        "php": ">=7.*",
         "laravel/lumen-framework": "5.3.*",
         "behat/behat": "~3.0",
         "behat/mink-browserkit-driver": "~1.2"
